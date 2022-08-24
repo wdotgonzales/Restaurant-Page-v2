@@ -1,0 +1,596 @@
+*,*::before,*::after{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#content{
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+/* NAV BAR  */
+.nav-item-container{
+  display: flex;
+  justify-content: space-around;
+  font-size:22px;
+
+}
+
+.navbar {
+  background-color: rgb(19, 0, 0,0.5);
+  padding-block: 1em;
+  
+}
+
+.nav-item-container button {
+  width: 10em;
+  font-size: 17px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+
+.footer-container {
+  display: flex;
+  text-decoration: none;
+  color: white;
+
+  gap: 0.8em;
+
+  justify-content: center;
+  padding-block: 0.3em;
+  background-color: grey;
+}
+
+.footer-container img{
+  width: 40px;
+}
+
+/* Header */
+
+.header-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 7em;
+}
+
+.header-text h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 65px;
+  color: orange;
+}
+
+.header-text h1{
+  font-family: 'Chewy', cursive;
+  font-size: 170px;
+  color: yellow;
+}
+
+.purchasenow{
+  margin-top: 1.2em;
+  text-decoration: none;
+  background-color: orange;
+  padding-block: 0.5em;
+  padding-inline: 1.7em;
+  
+}
+
+.header-text p , .header-text a {
+  font-size: 22px;
+  color: white;
+  font-weight: BOLD;
+}
+
+.header-text a {
+  text-decoration: none;
+}
+
+.header-container{
+  height: 780px;
+  background-image:url("https://wallpaperaccess.com/full/3353905.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* About Us */
+
+.aboutus-hero{
+  background-color: rgb(221, 221, 221);
+
+  padding-block: 3em;
+  
+}
+
+.aboutus-container{
+  width: 55%;
+  display: flex;
+  margin: 0 auto;
+  gap: 2em;
+}
+.aboutus-item1{
+  height: 550px;
+  border-radius: 18px;
+}
+
+.aboutus-item2 {
+  margin-top: 4em;
+}
+.aboutus-item2 p {
+  margin-top: 1em;
+}
+
+.aboutus-paragraph2{
+  padding-bottom: 2em;
+}
+
+.bookatable{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+
+  background-color: orange;
+  padding-block: 0.5em;
+  padding-inline: 2em;
+
+}
+
+/* ----------------------------------- */
+
+
+/* ----------------------------------- */
+
+  /* Services */
+  .services-hero{
+    background-color: chocolate;
+  }
+  .services-container{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+
+    padding-bottom: 8em;
+  }
+
+  .services-item1 , .services-item2 , .services-item3{
+    width: 450px;
+    padding-block: 2em;
+    background-color: rgb(255, 97, 97);
+    border-radius: 18px;
+  } 
+
+  .services-item1 p , .services-item2 p , .services-item3 p{
+    width: 380px;
+    margin: 0 auto;
+    
+  }
+
+  .services-item1 img , .services-item2 img , .services-item3 img{
+    width: 350px;
+    border: 6px solid orange;
+    border-radius: 18px;
+  }
+
+  .services-item1 h2 , .services-item2 h2 , .services-item3 h2{
+    padding-block: 0.3em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+  }
+  
+  .servicesh1{
+    text-align: center;
+    margin-right: 0.5em;
+    padding-block: 1em;
+    color: WHITE;
+    font-size: 55px;
+
+    font-family: 'Dancing Script', cursive;
+  }
+  /* ----------------------------------- */
+
+
+  /* Menu */
+  .menu-header-title , .menu-header-text{
+    text-align: center;
+  }
+
+  .menu-header-title{
+    margin-bottom: 0.3em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    color: white;
+  }
+
+  .menu-header-text{
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+
+  .menu-container{
+    
+    background-color: orange;
+  }
+
+  .menu-hero{
+    background-color: orange;
+    max-width: 890px;
+    margin: 0 auto;
+    padding-top: 3.5em;
+    padding-bottom: 6em;
+  }
+  
+
+  .food-container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 2em;
+    margin-bottom: 3em;
+  }
+
+  .food{
+    background-color: rgb(245, 245, 220);
+    box-shadow: 7px 5px 5px rgb(0, 0, 0);
+    padding: 2em;
+    border-radius: 18px;
+  }
+
+  .food h3{
+    padding-block: 0.5em;
+  }
+
+  .food img{
+    height: 200px;
+  }
+
+
+  /* Contact Us */
+  
+  .contactus-container  {
+    margin: 0 auto; 
+    background-color: rgb(209, 209, 209);
+
+  }
+
+  .contactus-container h1{
+    font-size: 52 px;
+    text-align: center;
+    padding-top: 0.2em;
+    padding-bottom: 1em;
+  }
+
+  .p1{
+    font-size: 23px;
+    padding-top: 4em;
+    text-align: center;
+  }
+
+  .contactus-info-item1 , .contactus-info-item2{
+    display: flex;
+    gap: 2em;
+  }
+
+  .contactus-info{
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    padding-block: 2em;
+    border-radius: 12px;
+  }
+
+  .mini-item-1 , .mini-item-2 , .mini-item-3 , .mini-item-4{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .contactus-info , .contactus-map-form{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .contactus-map-form{
+    padding-bottom: 12em;
+  }
+
+
+  .mini-item-1{
+    width: 250px;
+    gap: 1em;
+    margin-left: 3em;
+  }
+
+  .mini-item-2{
+    width: 200px;
+    gap: 1em;
+    
+  }
+
+  .mini-item-3{
+    width: 290px;
+    gap: 1em;
+    
+  }
+
+  .mini-item-4{
+    width: 210px;
+    gap: 1em; 
+  }
+
+  .bg-color-orange{
+    /* background-color: orange; */
+    /* padding-block: 0.7em;
+    padding-inline: 1em; */
+    border-radius: 100%;
+    width: 2em;
+  }
+
+  .img-logo{
+   margin-top: 0.1em;
+  }
+
+  .img-logo1{
+    width: 3em;
+  }
+  .img-logo2{
+    width: 1.5em;
+  }
+
+  .img-logo3{
+    width: 1.9em;
+  }
+
+  .img-logo4{
+    width: 2em;
+  }
+
+  .img-logo9 , .img-logo8 , .img-logo7 , .img-logo6 , .img-logo5{
+    width: 1em;
+  }
+
+  .socials{
+    display: flex;
+    gap: 0.5em;
+  }
+
+  .margin-bottom{
+    margin-bottom: 0.2em;
+  }
+
+
+  /* Map and Form */
+  .contactus-map-form{
+    display: flex;
+    gap: 1em;
+
+    margin-top: 1.5em;
+  }
+  .map-container iframe{
+    border-radius: 18px;
+    
+  }
+
+  .form-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .form-container{
+    margin-top: 0.5em;
+  }
+
+  .input{
+    width: 518px;
+    border-radius: 5px;
+    border: 1px solid rgb(205, 205, 205);
+  }
+  
+  .input[type="text"] , .input[type="email"]{
+    padding-left: 0.5em;
+  }
+  .input1 , .input2 , .input3{
+    padding-block: 0.3em;
+  }
+
+  .input4{
+    padding-bottom: 8em;
+  }
+
+  .form-container button {
+    background-color: orange;
+    border: 2px solid orange;
+    padding-inline: 2em;
+    padding-block: 1em;
+    color: white;
+    font-weight: bold;
+
+    border-radius: 12px;
+  }
+
+  /* Book a table */
+  .bookatable-hero{
+    background-color: rgb(207, 207, 207);
+    max-width: 1500px;
+    margin: 0 auto;
+
+    padding-top: 7.5em;
+    padding-bottom: 12em;
+  }
+
+  .bookatable-container{
+    display: flex;
+    
+    gap: 6em;
+    
+
+    background-color: rgb(206, 206, 206);
+
+    /* padding-top: 5em; */
+  }
+
+  .bookatable-item1{
+    font-family: 'Poppins', sans-serif;
+    width: 55%;
+    color: white;
+  }
+
+  .bookatable-item1 h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .bookatable-img1{
+    width: 15px;
+    margin-left: 0.1em;
+    margin-top: 0.3em;
+  }
+
+  .bookatable-img2{
+    width: 17px;
+    margin-top: 0.2em;
+  }
+
+  .bookatable-img3{
+    width: 14.5px;
+    margin-top: 0.2em;
+  }
+  
+  .bookatable-img4{
+    width: 16px;
+    margin-top: 0.3em;
+  }
+  
+  .p1{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+  }
+
+  .p2 , .p3{
+    margin-top: 1em;
+    font-size: 17px;
+    color: rgb(105, 105, 105);
+  }
+
+  .bookatable-item2{
+    font-family: 'Poppins',sans-serif;
+    background-color: orange;
+    padding-top: 5em;
+    padding-bottom: 7em;
+    padding-inline: 2.5em;
+
+    border-radius: 19px;
+  }
+
+
+
+  /* Form 1*/
+
+  form{
+    display: block;
+  }
+  .form-item{
+    position: relative;
+    
+  }
+
+  
+  .form-item label{
+  position: absolute;
+  left: 28.7em;
+  top: 2.5px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+
+  color: black;
+  
+  }
+
+  .form-item input{
+    padding-block: 1em;
+    color: white;
+  }
+  
+  .form-item1 input[type=text] , .form-item2 input[type=email] 
+  , .form-item3 input[type=tel] , .form-item5 input[type=text]{
+    padding-left: 1em; 
+    box-sizing: border-box;
+
+    padding-right: 11.2em;
+    margin-bottom: 1.5em;
+
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    color: black;
+
+
+  }
+
+  .form-item4 input[type="date"]{
+    padding-left: 1em;
+    padding-right: 22em;
+
+    margin-bottom: 1.5em;
+
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    
+  }
+
+  .form-item4 input[type=date]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 28.8em;
+    top: 8px;
+    padding: 9px 8px;
+    transition: 0.3s;
+    
+  }
+
+
+  .booknow{
+    width: 25.5em;
+    color: orange;
+    background-color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    padding-block: 0.5em;
+
+    font-weight: bold;
+  }
+
+  .form-item ::placeholder{
+    color: white;
+    font-size: 18px;
+  }
+
+  .p1-2{
+    text-align: left;
+    color: black;
+    margin-left: 0.2em;
+    font-size: 23px;
+  }
+
+
+  .active {
+    display: block;
+  }
+
+  .inactive {
+    display: none;
+  }
