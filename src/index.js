@@ -348,7 +348,8 @@ function createContactUsPage(){
   mini_item_1.append(bg_color_orange_1);
 
   const bg_color_orange_1_img = document.createElement('img');
-  bg_color_orange_1_img.src = "../dist/location-dot-solid.svg";
+  // bg_color_orange_1_img.src = "../dist/location-dot-solid.svg";
+  bg_color_orange_1_img.src = "location-dot-solid.svg";
   bg_color_orange_1.classList.add("img-logo", "img-logo1");
   bg_color_orange_1.append(bg_color_orange_1_img);
 
@@ -379,7 +380,8 @@ function createContactUsPage(){
   mini_item_2.append(bg_color_orange_2);
 
   const bg_color_orange_2_img = document.createElement('img');
-  bg_color_orange_2_img.src = "../dist/mobile-screen-solid.svg";
+  // bg_color_orange_2_img.src = "../dist/mobile-screen-solid.svg";
+  bg_color_orange_2_img.src = "mobile-screen-solid.svg";
   bg_color_orange_2.classList.add("img-logo", "img-logo2");
   bg_color_orange_2.append(bg_color_orange_2_img);
 
@@ -415,7 +417,8 @@ function createContactUsPage(){
   mini_item_3.append(bg_color_orange_3);
 
   const bg_color_orange_3_img = document.createElement('img');
-  bg_color_orange_3_img.src = "../dist/envelope-solid.svg";
+  // bg_color_orange_3_img.src = "../dist/envelope-solid.svg";
+  bg_color_orange_3_img.src = "envelope-solid.svg";
   bg_color_orange_3.classList.add("img-logo", "img-logo3");
   bg_color_orange_3.append(bg_color_orange_3_img);
 
@@ -444,7 +447,8 @@ function createContactUsPage(){
   mini_item_4.append(bg_color_orange_4);
 
   const bg_color_orange_4_img = document.createElement('img');
-  bg_color_orange_4_img.src = "../dist/share-solid.svg";
+  // bg_color_orange_4_img.src = "../dist/share-solid.svg";
+  bg_color_orange_4_img.src = "share-solid.svg";
   bg_color_orange_4.classList.add("img-logo", "img-logo4");
   bg_color_orange_4.append(bg_color_orange_4_img);
 
@@ -464,27 +468,32 @@ function createContactUsPage(){
 
   const socials1 = document.createElement('img');
   socials1.classList.add('img-logo','img-logo5');
-  socials1.src = "../dist/twitter-brands.svg";
+  // socials1.src = "../dist/twitter-brands.svg";
+  socials1.src = "twitter-brands.svg";
   socials_container.append(socials1);
 
   const socials2 = document.createElement('img');
   socials2.classList.add('img-logo','img-logo6');
-  socials2.src = "../dist/facebook-f-brands.svg";
+  // socials2.src = "../dist/facebook-f-brands.svg";
+  socials2.src = "facebook-f-brands.svg";
   socials_container.append(socials2);
 
   const socials3 = document.createElement('img');
   socials3.classList.add('img-logo','img-logo7');
-  socials3.src = "../dist/youtube-brands.svg";
+  // socials3.src = "../dist/youtube-brands.svg";
+  socials3.src = "youtube-brands.svg";
   socials_container.append(socials3);
 
   const socials4 = document.createElement('img');
   socials4.classList.add('img-logo','img-logo8');
-  socials4.src = "../dist/instagram-brands.svg";
+  // socials4.src = "../dist/instagram-brands.svg";
+  socials4.src = "instagram-brands.svg";
   socials_container.append(socials4);
 
   const socials5 = document.createElement('img');
   socials5.classList.add('img-logo','img-logo9');
-  socials5.src = "../dist/linkedin-in-brands.svg";
+  // socials5.src = "../dist/linkedin-in-brands.svg";
+  socials5.src = "linkedin-in-brands.svg";
   socials_container.append(socials5);
 
   // Map and Form - Hero Container
@@ -610,7 +619,8 @@ function createBookATablePage(){
 
   const bookatable_frm_div1_label = document.createElement('label');
   const bookatable_frm_div1_label_img = document.createElement('img');
-  bookatable_frm_div1_label_img.src = "../dist/user-regular.svg";
+  // bookatable_frm_div1_label_img.src = "../dist/user-regular.svg";
+  bookatable_frm_div1_label_img.src = "user-regular.svg";
   bookatable_frm_div1_label_img.classList.add('bookatable-img','bookatable-img1');
   bookatable_frm_div1_label.append(bookatable_frm_div1_label_img);
 
@@ -632,7 +642,8 @@ function createBookATablePage(){
 
   const bookatable_frm_div2_label = document.createElement('label');
   const bookatable_frm_div2_label_img = document.createElement('img');
-  bookatable_frm_div2_label_img.src = "../dist/envelope-solid.svg";
+  // bookatable_frm_div2_label_img.src = "../dist/envelope-solid.svg";
+  bookatable_frm_div2_label_img.src = "envelope-solid.svg";
   bookatable_frm_div2_label_img.classList.add('bookatable-img','bookatable-img2');
   bookatable_frm_div2_label.append(bookatable_frm_div2_label_img);
 
@@ -654,7 +665,8 @@ function createBookATablePage(){
 
   const bookatable_frm_div3_label = document.createElement('label');
   const bookatable_frm_div3_label_img = document.createElement('img');
-  bookatable_frm_div3_label_img.src = "../dist/mobile-screen-solid.svg";
+  // bookatable_frm_div3_label_img.src = "../dist/mobile-screen-solid.svg";
+  bookatable_frm_div3_label_img.src = "mobile-screen-solid.svg";
   bookatable_frm_div3_label_img.classList.add('bookatable-img','bookatable-img3');
   bookatable_frm_div3_label.append(bookatable_frm_div3_label_img);
 
@@ -691,7 +703,8 @@ function createBookATablePage(){
 
   const bookatable_frm_div5_label = document.createElement('label');
   const bookatable_frm_div5_label_img = document.createElement('img');
-  bookatable_frm_div5_label_img.src = "../dist/clock-regular.svg";
+  // bookatable_frm_div5_label_img.src = "../dist/clock-regular.svg";
+  bookatable_frm_div5_label_img.src = "clock-regular.svg";
   bookatable_frm_div5_label_img.classList.add('bookatable-img','bookatable-img4');
   bookatable_frm_div5_label.append(bookatable_frm_div5_label_img);
 
